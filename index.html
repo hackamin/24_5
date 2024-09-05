@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> ฅ^•ﻌ•^ฅ </title>
+</head>
+<body>
+  <div class = click>
+    <h3> click the minmin </h3>
+  </div>
+  <div class="flip-card-container">
+    <div class="flip-card">
+      <div class="flip-card-front">
+        <img src="confusedlia.jpg" alt=" ">
+      </div>
+      <div class="flip-card-back">
+        <p>
+          <em>At times, things might get confusing and worrisome, but hold on tight, and we'll figure everything out together.
+            <br><br>For I could never grow weary of understanding you, no matter what.
+          </em>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var flipCardContainer = document.querySelector('.flip-card-container');
+        flipCardContainer.addEventListener('click', function() {
+            this.querySelector('.flip-card').classList.toggle('flipped');
+        });
+    });
+  </script>
+</body>
+</html>
